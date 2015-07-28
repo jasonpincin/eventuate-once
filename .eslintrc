@@ -3,6 +3,7 @@
     "rules": {
         "indent": [2, 4, {indentSwitchCase: true}],
         "no-multi-spaces": 0,
+        "curly": 0,
         "one-var": 0,
         "new-parens": 0,
         "no-mixed-requires": 0,
