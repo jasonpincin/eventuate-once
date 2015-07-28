@@ -4,7 +4,7 @@
 [![Build Status](https://travis-ci.org/jasonpincin/eventuate-once.svg?branch=master)](https://travis-ci.org/jasonpincin/eventuate-once)
 [![Coverage Status](https://coveralls.io/repos/jasonpincin/eventuate-once/badge.png?branch=master)](https://coveralls.io/r/jasonpincin/eventuate-once?branch=master)
 
-Act upon the next occurance of an eventuate
+Act once upon the next occurrence of an eventuate
 
 ## example
 

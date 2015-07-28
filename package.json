@@ -1,7 +1,7 @@
 {
   "name": "eventuate-once",
   "version": "1.0.0",
-  "description": "Act upon the next occurance of an eventuate",
+  "description": "Act once upon the next occurrence of an eventuate",
   "main": "index.js",
   "scripts": {
     "test": "make npm-test",
