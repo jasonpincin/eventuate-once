@@ -34,7 +34,7 @@
   "contributors": [],
   "devDependencies": {
     "eslint": "~0.24.1",
-    "eventuate": "~2.1.0",
+    "eventuate": "~3.0.0",
     "istanbul": "~0.3.17",
     "opn": "~3.0.2",
     "tap-dot": "~1.0.0",
