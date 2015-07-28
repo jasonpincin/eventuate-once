@@ -1,6 +1,6 @@
 {
   "name": "eventuate-once",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Act upon the next occurance of an eventuate",
   "main": "index.js",
   "scripts": {
