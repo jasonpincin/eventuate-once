@@ -11,7 +11,13 @@
     "type": "git",
     "url": "git://github.com/jasonpincin/eventuate-once.git"
   },
-  "keywords": [],
+  "keywords": [
+    "eventuate",
+    "event",
+    "once",
+    "callback",
+    "promise"
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/jasonpincin/eventuate-once/issues"
