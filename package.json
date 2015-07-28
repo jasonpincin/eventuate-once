@@ -14,9 +14,12 @@
   "keywords": [
     "eventuate",
     "event",
+    "emitter",
+    "handler",
     "once",
     "callback",
-    "promise"
+    "Promise",
+    "EventEmitter"
   ],
   "license": "MIT",
   "bugs": {
