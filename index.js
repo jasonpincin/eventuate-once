@@ -10,3 +10,16 @@ module.exports = function eventuateOnce (eventuate, cb) {
     })
     return done
 }
+
+module.exports.match = function eventuateOnceMatch (eventuate, filter, cb) {
+    var done = new Promise(function onceMatchPromise (resolve) {
+        eventuate(function onceMatch (data) {
+            if (filter(data)) {
+                eventuate.removeConsumer(onceMatch)
+                if (typeof cb === 'function') cb(data)
+                resolve(data)
+            }
+        })
+    })
+    return done
+}
